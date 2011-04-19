@@ -1,0 +1,22 @@
+name: Cleaner
+main: com.nijikokun.bukkit.Cleaner.Cleaner
+version: 1.8
+commands:
+    clean:
+        description:
+        usage:
+    wipe:
+        description:
+        usage:
+    preview:
+        description:
+        usage:
+    revert:
+        description:
+        usage:
+    replace:
+        description:
+        usage:
+    scan:
+        description:
+        usage:
