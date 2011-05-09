@@ -66,7 +66,7 @@ public class Misc
     Player player = null;
 
     for (Player needle : online) {
-      if (needle.getName().equals(name)) {
+      if (needle.getName().equalsIgnoreCase(name)) {
         player = needle;
         break;
       }
