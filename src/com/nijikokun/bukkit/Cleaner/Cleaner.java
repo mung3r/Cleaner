@@ -72,6 +72,7 @@ public class Cleaner extends JavaPlugin
   public void setup()
   {
     Items = new iProperty("items.db");
+    version = getDescription().getVersion();
   }
 
   public void setupCommands()
